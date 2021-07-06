@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@aws-cdk/aws-apigatewayv2": "^1.110.1",
+    "@aws-cdk/aws-apigatewayv2-authorizers": "^1.110.1",
     "@aws-cdk/aws-apigatewayv2-integrations": "^1.110.1",
     "@aws-cdk/aws-dynamodb": "^1.110.1",
     "@aws-cdk/aws-lambda": "^1.110.1",
