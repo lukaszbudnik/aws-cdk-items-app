@@ -1,4 +1,6 @@
 *.js
+!/lib/lambda/create-item/*
+!/lib/lambda/get-items/*
 !jest.config.js
 *.d.ts
 /node_modules
