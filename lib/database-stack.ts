@@ -7,7 +7,7 @@ export class Database extends cdk.Stack {
   constructor(scope: cdk.App, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    this.table = new ddb.Table(this, "hotel-resources", {
+    this.table = new ddb.Table(this, "items", {
       partitionKey: {
         name: "pk",
         type: ddb.AttributeType.STRING,
